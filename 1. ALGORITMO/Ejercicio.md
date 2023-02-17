@@ -40,7 +40,7 @@
     
     3-.Ingresar(Fecha de nacimiento,año actual);
     
-    4-.Edad=año actual =fecha de nacimiento;
+    4-.Edad=año actual - fecha de nacimiento;
     
     5-.Mostrar (edad);
     
@@ -59,8 +59,8 @@
     
     4-.Diferencia= precio final - precio inicial;
     
-    5-.Incremento =(diferencia*100)/precio inicial;
+    5-.Incremento =(precio final/precio inicial)*100;
     
-    6-.Mostrar (incremento);
+    6-.Mostrar (porcentaje);
     
     7-.Fin
